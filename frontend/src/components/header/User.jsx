@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom/cjs/react-router-dom'
+import { Link } from 'react-router-dom'
 import {RiImageAddLine} from 'react-icons/ri';
 
 import { BsBagCheck} from "react-icons/bs"
@@ -13,7 +13,7 @@ export const User = () => {
 
   const user = true
 
-  const [profileOpen,setProfileOpen] = useState(true)
+  const [profileOpen,setProfileOpen] = useState(false)
 
   const close = () => {
     setProfileOpen(false)
@@ -30,7 +30,7 @@ export const User = () => {
         
 
         {profileOpen && (
-          <div className="openProfile boxItems">
+          <div className="openProfile boxItems" onClick={close}>
           <Link to ='account'>
             <div className="image">
               <div className="img">
