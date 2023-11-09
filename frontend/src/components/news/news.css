@@ -1,0 +1,62 @@
+.news{
+    margin: 50px 0;
+
+}
+
+.news .boxItems{
+    transition: 0.5s;
+}
+
+.news .boxItems:hover{
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+.news img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.news .icon{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.news .tag a{
+    color: rgb(38, 133, 10);
+    opacity: 0.7;
+}
+
+.news .tag{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.news h3{
+    font-weight: 500;
+}
+
+.news p {
+    color: #999;
+    font-weight: 400;
+    margin: 20px 0;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.news .date{
+    display: flex;
+    align-items: center;
+}
+
+.news .date label{
+    display: block;
+    margin-right: 20px;
+}
+

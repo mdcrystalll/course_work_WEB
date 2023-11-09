@@ -9,9 +9,9 @@ import { GrFormPrevious } from 'react-icons/gr'
 
 const SmapleNextArrow = (props) => {
 
-    const {onclick} = props
+    const {onClick} = props
     return(
-        <div className="control-btn" onclick={onclick}>
+        <div className="control-btn" onclick={onClick}>
             <button className='next'>
                 <MdNavigateNext className='icon' />
             </button>
@@ -21,9 +21,9 @@ const SmapleNextArrow = (props) => {
 
 const SmaplePrevArrow = (props) => {
 
-    const {onclick} = props
+    const {onClick} = props
     return(
-        <div className="control-btn" onclick={onclick}>
+        <div className="control-btn" onClick={onClick}>
             <button className='prev'>
                 <GrFormPrevious className='icon' />
             </button>
@@ -41,7 +41,7 @@ const Category = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         nextArrow : <SmapleNextArrow/>,
-        nextArrow : <SmaplePrevArrow/>,
+        prevArrow : <SmaplePrevArrow/>,
         responsive : [
             {
                 breakpoint : 800,

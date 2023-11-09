@@ -85,4 +85,12 @@ header.active{
     box-shadow: 0 0 4px 0 rgb(115, 115, 115 / 20%) ;
 }
 
+@media screen and (max-width:768px){
+    nav{
+      display: none;
+    }
+  
+  }
+
+
 
