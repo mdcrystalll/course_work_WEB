@@ -9,31 +9,13 @@ export const nav = [
       text: "about",
       url: "/about",
     },
+    
     {
       id: 3,
-      text: "pages",
-      url: "/pages",
-    },
-    {
-      id: 4,
-      text: "blog",
-      url: "/blog",
-    },
-    {
-      id: 5,
       text: "contact",
       url: "/contact",
-    },
-    {
-      id: 6,
-      text: "details",
-      url: "/details",
-    },
-    {
-      id: 7,
-      text: "login",
-      url: "/login",
-    },
+    }
+  
   ]
 
   export const category = [
